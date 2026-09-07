@@ -1,0 +1,3 @@
+import { Menu, X } from 'lucide-react';
+import { useState } from 'react';
+export default function Header(){const [open,setOpen]=useState(false); const links=['About','Works','Process','Experience','Contact']; return <header className="site-header"><a className="brand" href="#top"><span>DS</span><b>Diksha Suthar</b></a><nav className={open?'nav open':'nav'}>{links.map(l=><a key={l} href={'#'+l.toLowerCase()} onClick={()=>setOpen(false)}>{l}</a>)}</nav><button className="menu" onClick={()=>setOpen(v=>!v)} aria-label="Toggle navigation">{open?<X/>:<Menu/>}</button></header>}

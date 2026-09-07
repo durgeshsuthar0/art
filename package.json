@@ -1,0 +1,9 @@
+{
+  "name": "diksha-suthar-art-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"dev":"vite","build":"tsc -b && vite build","preview":"vite preview"},
+  "dependencies": {"react":"^19.1.1","react-dom":"^19.1.1","lucide-react":"^0.544.0"},
+  "devDependencies": {"@vitejs/plugin-react":"^5.0.2","vite":"^7.1.4","typescript":"^5.9.2","@types/react":"^19.1.12","@types/react-dom":"^19.1.9","tailwindcss":"^3.4.17","postcss":"^8.5.6","autoprefixer":"^10.4.21"}
+}

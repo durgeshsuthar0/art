@@ -1,0 +1,1 @@
+export default function Footer(){return <footer><div><b>Diksha Suthar</b><span>Fine Artist & Creative Artist · Ahmedabad, India</span></div><p>Fine Art · Wall Art · Craft · Creative Expression</p></footer>}
